@@ -1,8 +1,14 @@
-# whatsapp_flutter_mobile
+# Whatsapp Flutter Mobile
 
-&#x27;A new Flutter project. Created by Slidy&#x27;
+&#x27;Whatsapp clone using Flutter and Hasura. Created by Slidy&#x27;
 
-## Getting Started
+!(snapshots/whatsapp-theme.png)[] !(snapshots/telegram-theme.png)[]
+<!-- &#x27;Web sample&#x27; -->
+
+## Getting Started - Login
+Test user: test_user@flutterando.com.br
+
+## Getting Started - Run code
 
 This project is a starting point for a Flutter application.
 
