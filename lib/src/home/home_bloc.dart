@@ -4,10 +4,10 @@ import 'package:whatsapp_flutter_mobile/src/app_bloc.dart';
 import 'package:whatsapp_flutter_mobile/src/shared/models/message_model.dart';
 import 'package:rxdart/subjects.dart';
 
-import 'home_repository.dart';
+import '../app_repository.dart';
 
 class HomeBloc extends BlocBase {
-  final HomeRepository repository;
+  final AppRepository repository;
   final AppBloc appBloc;
   final controller = TextEditingController();
   var scrollController = ScrollController();

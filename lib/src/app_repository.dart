@@ -1,17 +1,18 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:hasura_connect/hasura_connect.dart';
-import 'package:whatsapp_flutter_mobile/src/app_bloc.dart';
-import 'package:whatsapp_flutter_mobile/src/app_module.dart';
 import 'package:whatsapp_flutter_mobile/src/shared/models/message_model.dart';
 import 'package:whatsapp_flutter_mobile/src/shared/models/user_model.dart';
 
-class HomeRepository extends Disposable {
+import 'app_bloc.dart';
+import 'app_module.dart';
+
+class AppRepository extends Disposable {
   final HasuraConnect connection;
   var appBloc = AppModule.to.bloc<AppBloc>();
 
   Snapshot currentSnapshot;
 
-  HomeRepository(this.connection);
+  AppRepository(this.connection);
 
   void setLimit(int limit) => currentSnapshot.changeVariable({"limit": limit});
 

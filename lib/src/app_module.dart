@@ -1,10 +1,9 @@
+import 'package:whatsapp_flutter_mobile/src/app_repository.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:hasura_connect/hasura_connect.dart';
 import 'package:whatsapp_flutter_mobile/src/app_widget.dart';
 import 'package:whatsapp_flutter_mobile/src/app_bloc.dart';
-
-import 'home/home_repository.dart';
 
 class AppModule extends ModuleWidget {
   @override
@@ -14,9 +13,8 @@ class AppModule extends ModuleWidget {
 
   @override
   List<Dependency> get dependencies => [
-        Dependency((i) => HomeRepository(i.get<HasuraConnect>())),
-        Dependency((i) => HasuraConnect(
-            "https://test-hasura-connect.herokuapp.com/v1/graphql")),
+        Dependency((i) => AppRepository(i.get<HasuraConnect>())),
+        Dependency((i) => HasuraConnect("https://test-hasura-connect.herokuapp.com/v1/graphql")),
       ];
 
   @override
