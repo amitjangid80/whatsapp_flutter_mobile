@@ -6,8 +6,7 @@ Whatsapp clone using Flutter and Hasura. Created by Slidy
 Test user: test_user@flutterando.com.br
 
 ## Whatsapp Colors Theme and Telegram Colors Dark Theme
-<img src="snapshots/whatsapp-theme.png" width="400" />
-<img src="snapshots/telegram-theme.png" width="400" />
+<img src="snapshots/whatsapp-theme.png" width="400" /> <img src="snapshots/telegram-theme.png" width="400" />
 
 ## Getting Started - Run code
 
