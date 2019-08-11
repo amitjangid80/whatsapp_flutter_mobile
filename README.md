@@ -2,7 +2,7 @@
 
 &#x27;Whatsapp clone using Flutter and Hasura. Created by Slidy&#x27;
 
-!(snapshots/whatsapp-theme.png)[] !(snapshots/telegram-theme.png)[]
+![](snapshots/whatsapp-theme.png) ![](snapshots/telegram-theme.png)
 <!-- &#x27;Web sample&#x27; -->
 
 ## Getting Started - Login
