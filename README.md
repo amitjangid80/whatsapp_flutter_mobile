@@ -1,12 +1,17 @@
 # Whatsapp Flutter Mobile
 
-&#x27;Whatsapp clone using Flutter and Hasura. Created by Slidy&#x27;
-
-![](snapshots/whatsapp-theme.png) ![](snapshots/telegram-theme.png)
-<!-- &#x27;Web sample&#x27; -->
+Whatsapp clone using Flutter and Hasura. Created by Slidy
 
 ## Getting Started - Login
 Test user: test_user@flutterando.com.br
+
+## Whatsapp Colors Theme
+
+![](snapshots/whatsapp-theme.png) 
+
+## Telegram Colors Dark Theme
+![](snapshots/telegram-theme.png)
+<!-- &#x27;Web sample&#x27; -->
 
 ## Getting Started - Run code
 
