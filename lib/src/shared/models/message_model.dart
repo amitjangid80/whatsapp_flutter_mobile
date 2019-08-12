@@ -18,7 +18,7 @@ class MessageModel {
         user: UserModel.fromJson(json["user"]),
         content: json["content"],
         id: json["id"],
-        createAt: DateTime.parse(json["create_at"]),
+        createAt: DateTime.parse(json["create_at"]).toLocal(),
       );
 
   static List<MessageModel> fromJsonList(List jsonList) {
